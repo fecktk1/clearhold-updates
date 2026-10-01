@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Surplus Research Desk</title>
+        <item>
+            <title>0.1.3</title>
+            <pubDate>Thu, 01 Oct 2026 08:36:52 -0500</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.3 (build 11) — update QA
+
+This prerelease validates the in-app update from Clearhold 0.1.2 (build 10) to 0.1.3 (build 11). It keeps the app and widget identifiers and the shared App Group unchanged.
+
+This build is for the approved local update test. It is not a production release for Nakita.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/qa-0.1.3-b11/Clearhold-0.1.3-b11-qa-notarized-mac-arm64.zip" length="1735543" type="application/octet-stream" sparkle:edSignature="R3zyo8Uk0fuqNuXPVoaIiobr4JRawZR6JT8y1opBhBf9L0cHvo3w6N1zEOooeWgG1kQj1yuOq+eEIB1kTC1PCA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 1EhIDEmAK9oDomRVRXyeblnDsMfJyFVlA3OVRyF+rzenxsTJHQ0ZjoOCOKoTKkfliroHaTOnydBZ3jhVichuBg==
+length: 1565
+-->
