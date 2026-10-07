@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Clearhold</title>
+        <item>
+            <title>0.1.4</title>
+            <pubDate>Tue, 06 Oct 2026 20:23:02 -0500</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.4 (build 19)
+
+- Opens the Clearhold cloud workspace over HTTPS, with no Tailscale connection required.
+- Moves the two previously shipped local and Office workspace addresses to the cloud address on first launch. Other custom addresses remain unchanged.
+- Explains incorrect sign-in details and expired sign-in pages inside the app, with a fresh sign-in button that does not replay a submitted password. Connection failures have a separate retry view.
+- Installs as **Clearhold.app** with the approved branding while retaining the existing app, widget and App Group identities.
+- Includes the desktop widget, optional alerts while the app is open, and the signed Sparkle update interface.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b19/Clearhold-0.1.4-b19-macOS-arm64.zip" length="3328794" type="application/octet-stream" sparkle:edSignature="JwV1exO9B4hJdinGPlP9IYWJpohNmDQf7JjOi6YeIaGfpM2BCY/2VJBLWYmN1tlZetatP/3G+N2erHS46+chCQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: bzbp4j7K8uwF/i4DZo4xJUU+yItBvggELbIQLIiOCbrwSsrVnmErTFBEcbmQ0qoSWYEsINmzkt6HNKA7tlDgCg==
+length: 1934
+-->
