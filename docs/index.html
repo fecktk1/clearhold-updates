@@ -1,1 +1,202 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><title>Clearhold updates</title><body><h1>Clearhold updates</h1><p>Signed prerelease update feed is being prepared. No production release is available from this site yet.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14352c">
+  <meta name="description" content="Download Clearhold for Mac and follow three simple steps to get started. For Apple Silicon Macs running macOS 14 or later.">
+  <title>Download Clearhold for Mac</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f5f3eb;
+      --card: #fffef9;
+      --ink: #202922;
+      --muted: #58645c;
+      --green: #14352c;
+      --line: #d9ddd3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--green); text-underline-offset: 4px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible {
+      outline: 3px solid #b57529;
+      outline-offset: 5px;
+      border-radius: 3px;
+    }
+    .skip-link {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      padding: 10px 16px;
+      background: var(--card);
+      transform: translateY(-160%);
+      z-index: 2;
+    }
+    .skip-link:focus { transform: translateY(0); }
+    .shell { width: min(100% - 40px, 800px); margin: 0 auto; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 30px 0 24px;
+    }
+    .wordmark { font-size: 25px; font-weight: 650; letter-spacing: -1px; }
+    .header-label { color: var(--muted); font-size: 13px; }
+    main { padding-bottom: 30px; }
+    .download {
+      padding: 34px 36px 31px;
+      background: var(--green);
+      border-radius: 18px;
+      color: var(--card);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: #c8d6ca;
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(32px, 5vw, 43px); line-height: 1.16; letter-spacing: -1.4px; font-weight: 650; }
+    .intro { max-width: 540px; margin: 12px 0 22px; color: #e1e8df; }
+    .download-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 11px;
+      min-height: 50px;
+      padding: 12px 21px;
+      border: 1px solid var(--paper);
+      border-radius: 8px;
+      background: var(--paper);
+      color: var(--green);
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .download-button:hover { background: #ffffff; border-color: #ffffff; }
+    .download-button:focus-visible { outline-color: #e9bb75; }
+    .download-button svg { flex: 0 0 19px; }
+    .requirements { margin: 14px 0 0; color: #d7e0d5; font-size: 14px; }
+    .release { margin: 3px 0 0; color: #c0cebf; font-size: 12px; }
+    .setup { margin-top: 29px; }
+    h2 { margin: 0 0 14px; font-size: 19px; line-height: 1.3; letter-spacing: -.3px; font-weight: 650; }
+    .steps { list-style: none; margin: 0; padding: 0 23px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+    .steps li { display: flex; gap: 17px; align-items: flex-start; padding: 20px 0; }
+    .steps li + li { border-top: 1px solid #e5e7df; }
+    .step-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 30px;
+      height: 30px;
+      margin-top: 1px;
+      border-radius: 50%;
+      background: #e9eee5;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    h3 { margin: 0 0 3px; font-size: 16px; font-weight: 650; line-height: 1.5; }
+    .steps p { margin: 0; color: var(--muted); font-size: 16px; }
+    .help { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 25px; }
+    .help h2 { margin: 0 0 7px; font-size: 15px; letter-spacing: 0; }
+    .help p { margin: 0 0 9px; color: var(--muted); font-size: 14px; }
+    .help a { font-size: 14px; font-weight: 550; }
+    footer { padding: 19px 0 26px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    footer p { margin: 0; }
+    footer a { color: inherit; }
+    @media (max-width: 560px) {
+      .shell { width: min(100% - 32px, 800px); }
+      header { padding: 22px 0 19px; }
+      .header-label { font-size: 12px; }
+      .download { padding: 27px 24px; border-radius: 15px; }
+      .intro { font-size: 15px; }
+      .download-button { width: 100%; }
+      .requirements { font-size: 14px; }
+      .setup { margin-top: 26px; }
+      .steps { padding: 0 18px; }
+      .steps li { gap: 13px; padding: 19px 0; }
+      .help { grid-template-columns: 1fr; gap: 20px; margin-top: 24px; }
+      .help p { max-width: 48ch; }
+      footer { padding-bottom: 22px; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to download</a>
+  <div class="shell">
+    <header>
+      <span class="wordmark">Clearhold</span>
+      <span class="header-label">Desktop for Mac</span>
+    </header>
+    <main id="main">
+      <section class="download" aria-labelledby="download-title">
+        <p class="eyebrow">Download &amp; setup</p>
+        <h1 id="download-title">Clearhold for Mac</h1>
+        <p class="intro">Your workspace, on your desktop.<br>Download the app, then follow the three steps below.</p>
+        <a class="download-button" href="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b19/Clearhold-0.1.4-b19-macOS-arm64.zip">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>
+          Download for Mac
+        </a>
+        <p class="requirements">Apple Silicon (M1 or newer) &middot; macOS 14 or later</p>
+        <p class="release">Version 0.1.4 (build 19) &middot; ZIP, 3.3 MB &middot; Signed &amp; notarized</p>
+      </section>
+
+      <section class="setup" aria-labelledby="setup-title">
+        <h2 id="setup-title">Get started in three steps</h2>
+        <ol class="steps">
+          <li>
+            <span class="step-number" aria-hidden="true">1</span>
+            <div>
+              <h3>Unzip the download</h3>
+              <p>Open your Downloads folder and double-click the ZIP file to reveal Clearhold.app.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">2</span>
+            <div>
+              <h3>Move it to Applications</h3>
+              <p>Drag Clearhold.app into your Applications folder.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">3</span>
+            <div>
+              <h3>Open Clearhold and sign in</h3>
+              <p>Open Clearhold from Applications. Sign in with your assigned username and password. No Tailscale setup is needed.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <div class="help">
+        <section aria-labelledby="signin-title">
+          <h2 id="signin-title">Need help signing in?</h2>
+          <p>Recover access using the username and email associated with your account. Check your spam folder for the recovery email.</p>
+          <a href="https://clearhold-web-clearhold-production-20261006.up.railway.app/accounts/recover/">Recover your account</a>
+        </section>
+        <section aria-labelledby="browser-title">
+          <h2 id="browser-title">Prefer your browser?</h2>
+          <p>You can also open your Clearhold workspace on the web and sign in with the same account.</p>
+          <a href="https://clearhold-web-clearhold-production-20261006.up.railway.app/accounts/login/">Open the web workspace</a>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>Questions or need your username? <a href="mailto:admin@theclearhold.com">admin@theclearhold.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
