@@ -7,6 +7,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Clearhold</title>
         <item>
             <title>0.1.4</title>
+            <pubDate>Thu, 08 Oct 2026 08:47:59 -0500</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.4 (build 21)
+
+- Moves Clearhold to desk.theclearhold.com; sign in again once.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b21/Clearhold-0.1.4-b21-macOS-arm64.zip" length="3453056" type="application/octet-stream" sparkle:edSignature="BEWBg/06t+L+VQpW1CGdIrOmKIvRr0qmCVs6/mjqZaV3JG3ZeuIsgQwiw/o2KMAALsHj1ZT8AgpMBJAwxlHFBw=="/>
+        </item>
+        <item>
+            <title>0.1.4</title>
             <pubDate>Wed, 07 Oct 2026 21:30:15 -0500</pubDate>
             <sparkle:version>20</sparkle:version>
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
@@ -40,6 +53,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VRG0D034y/Z98vynn43tY994LHyBPDwtIr1G7MnlDtIZnGbJyj13FJ49j0Ish/mLy5EG/+F2YGRm1S45BkHADQ==
-length: 2931
+edSignature: vx/dRnuWChzmZZ6JUqWu0IqQ8h+57rr8iWAoAZ3sxD1E/i8ngTNqswNbPJkCtFfMrKOs4gLaVMuvLD43829+AA==
+length: 3813
 -->
