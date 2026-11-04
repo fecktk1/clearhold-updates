@@ -7,6 +7,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Clearhold</title>
         <item>
             <title>0.1.4</title>
+            <pubDate>Wed, 04 Nov 2026 10:48:48 -0600</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.4 — build 24
+
+- The window has no maximum size: it fills a large external display, goes full screen (View > Enter Full Screen, Control-Command-F) and remembers its size and place.
+- View > Zoom In, Zoom Out and Actual Size (Command =, Command -, Command 0) scale the page, and pinch to zoom works. Your zoom is kept between launches.
+- Save a copy now keeps scanned PNG and JPG documents.
+- Includes the November 4 workspace update: save case progress, one-step approval, documents that open in a browser tab, case archive and history, the county log, and Light, Dark or Match system appearance.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b24/Clearhold-0.1.4-b24-macOS-arm64.zip" length="2955188" type="application/octet-stream" sparkle:edSignature="Wdme7WP8BQww/67E7alLmHWif+vau1rp5XfyUCNXHZNGR6z/y025UnZYfno1R67rqGkmeDF5J9/law9F2eRkCw=="/>
+        </item>
+        <item>
+            <title>0.1.4</title>
             <pubDate>Mon, 02 Nov 2026 12:40:32 -0600</pubDate>
             <sparkle:version>23</sparkle:version>
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
@@ -85,6 +101,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4aXvaJWavMKvJUCo4a2N2YhmRkUmchIsl9EY5JtzVgG9FWfVZodJnTLdoF+oDMVPH3l9iMQ5Vz4p2xwf10fCDw==
-length: 6113
+edSignature: U28LxRhdu3b2eACIRxg87xVA/Bd4Q7fGTQQuKRT1Elerwc1oJ4JLJURHij1lAiuZ2baDENYR5v9CqJXLQQwlAw==
+length: 7515
 -->
