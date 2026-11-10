@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Clearhold</title>
         <item>
             <title>0.1.4</title>
+            <pubDate>Tue, 10 Nov 2026 16:08:31 -0600</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.4 — build 25
+
+- Agreements, agreement templates and attorney documents in Word (.docx, .doc), OpenDocument (.odt) and Rich Text (.rtf) form now save from the app. Before, the app answered "Download failed".
+- The email draft of a claimant agreement (.eml) now saves too.
+- Each of those files is checked before it is kept, the same way PDFs and images already are.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b25/Clearhold-0.1.4-b25-macOS-arm64.zip" length="2959184" type="application/octet-stream" sparkle:edSignature="caEMRSfpo8IS1AKfg91rj7l43yQ5G+Eur+tjXtdE/afcmbOLxFh3w0+Vuaiyzzf/V+ntqPaPZG2cWCrPbo59Cg=="/>
+        </item>
+        <item>
+            <title>0.1.4</title>
             <pubDate>Wed, 04 Nov 2026 10:48:48 -0600</pubDate>
             <sparkle:version>24</sparkle:version>
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
@@ -101,6 +116,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: U28LxRhdu3b2eACIRxg87xVA/Bd4Q7fGTQQuKRT1Elerwc1oJ4JLJURHij1lAiuZ2baDENYR5v9CqJXLQQwlAw==
-length: 7515
+edSignature: bnbc2rE/KifuY9/eV3Fp3+lPUn+btiEfiUzjZighfcibA8+8unnOvjlm0j1jH28sylQVixBehx0BfIgX8ltqBA==
+length: 8686
 -->
