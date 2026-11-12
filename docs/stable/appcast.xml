@@ -7,6 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Clearhold</title>
         <item>
             <title>0.1.4</title>
+            <pubDate>Wed, 11 Nov 2026 17:59:25 -0600</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Clearhold 0.1.4 — build 26
+
+- Phone calls from the app. Choosing "Calls on this computer" in the call bar now opens a small Phone window that carries the call, so it keeps going while you change pages in the main window.
+- The first call asks for permission to use the microphone. Only the Clearhold workspace can use it, and only for calls.
+]]></description>
+            <enclosure url="https://github.com/fecktk1/clearhold-updates/releases/download/v0.1.4-b26/Clearhold-0.1.4-b26-macOS-arm64.zip" length="2965616" type="application/octet-stream" sparkle:edSignature="9RTfaPvGxCi9svsDgnjUKT/lGFkw9894HH+YmQj9ky4FSJcOvkEsyjYqI2cQlpy2SNGzWwCkOK5ml8GPa6rnBQ=="/>
+        </item>
+        <item>
+            <title>0.1.4</title>
             <pubDate>Tue, 10 Nov 2026 16:08:31 -0600</pubDate>
             <sparkle:version>25</sparkle:version>
             <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
@@ -116,6 +130,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bnbc2rE/KifuY9/eV3Fp3+lPUn+btiEfiUzjZighfcibA8+8unnOvjlm0j1jH28sylQVixBehx0BfIgX8ltqBA==
-length: 8686
+edSignature: l6CF3kH0rCdyqJGq6pKMbfvBw8yR2805KKQEK8ol1+U96dZQtzW2j0QTZqmHn7qlIzWXEL+Z6/4f/Vk4OcMvCA==
+length: 9820
 -->
